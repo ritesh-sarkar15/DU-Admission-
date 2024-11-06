@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DU Admission Registration</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKf3PmJxwTAk1CslpGVHmgKVaQcsnYrK3ELZ2V3EkbFtTSX1S-6NpCu1k&s=10" alt="Dhaka University">
+  <div class="container">
+    <h1>Dhaka University Admission Registration</h1>
+    <marquee> This Website is made by Ritesh Sarkar.</marquee>
+    <form action="https://api.web3forms.com/submit" method="POST">
+      
+      <input type="hidden" name="redirect" value="https://admission.eis.du.ac.bd/bn/b45de047fde9788cadae3cfe8e88dcc2">
+
+    <input type="hidden" name="access_key" value="504a7a12-489f-4138-ae48-fae06bef3e28">
+
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" placeholder="Name" required>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" placeholder="Email" required>
+
+    <label for="number">Mobile Number:</label>
+    <input type="number" id="number" name="number" placeholder="Your mobile number" required>
+
+    <label for="hsc">HSC Roll Number:</label>
+    <input type="number" id="hsc" name="hsc" placeholder="Your HSC roll number" required>
+
+    <label for="ssc">SSC Roll Number:</label>
+    <input type="number" id="ssc" name="ssc" placeholder="Your SSC roll number" required>
+
+    <label for="reg">HSC/SSC Registration Number:</label>
+    <input type="number" id="reg" name="reg" placeholder="Your HSC/SSC registration number" required>
+
+    <label for="address">Address:</label>
+    <textarea id="address" name="address" placeholder="Your full address in details" required></textarea>
+
+    <div class="h-captcha" data-captcha="false"></div>
+    <button type="submit">Submit ➤ </button>
+</form>
+
+<script src="https://web3forms.com/client/script.js" async defer></script>
+</div>
+
+  </div>
+  <style type="text/css" media="all">
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+      margin: 0;
+      padding: 0;
+    }
+
+    img {
+      width: 100%;
+      height: 180px;
+    }
+
+    marquee {
+      font-weight: bolder;
+      font-size: 18px;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 10px auto;
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+    }
+
+    /* Added styles for labels and textarea */
+    label {
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+
+    input, textarea {
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      margin-bottom: 15px;
+    }
+
+    button {
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
